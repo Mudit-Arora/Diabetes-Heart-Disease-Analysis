@@ -1,0 +1,42 @@
+---
+title: "Project 1"
+author: "Mudit Arora"
+date: "2023-11-02"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Problem Statement
+
+
+
+## Necessary Libraries 
+- library(ggplot2)
+- library(caTools)
+- library(class)
+- library(caret)
+- library(ROCR) 
+```{r}
+library(ggplot2)
+library(caTools)
+library(class)
+library(caret)
+library(ROCR) 
+```
+
+
+## Dataset 
+```{r}
+dataset <-  read.csv("diabetes.csv")
+summary(dataset)
+```
+
+## 
+
+```{r }
+
+```
+
